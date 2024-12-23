@@ -1,0 +1,8 @@
+name: JokesPlugin
+version: '1.0'
+main: jokesPlugin.JokesPlugin
+api-version: '1.21'
+commands:
+  joke:
+    description: Get a random joke
+    usage: "Usage: /joke"
