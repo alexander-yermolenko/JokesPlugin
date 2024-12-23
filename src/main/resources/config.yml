@@ -4,5 +4,5 @@ jokes:
   - "Knock knock. Who’s there? Cow says. Cow says who? No silly, cow says moo!"
   - "What do you call a Minecraft bed? A block of comfort!"
   - "Why did the chicken join Minecraft? To lay eggs in the game world!"
-
 cooldown-seconds: 10
+max-joke-length: 100

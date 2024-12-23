@@ -4,5 +4,5 @@ main: jokesPlugin.JokesPlugin
 api-version: '1.21'
 commands:
   joke:
-    description: Get a random joke
-    usage: "Usage: /joke"
+    description: Tells a random joke or adds a new joke.
+    usage: "/joke [add <joke>]"

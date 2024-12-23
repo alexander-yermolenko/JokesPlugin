@@ -1,6 +1,7 @@
 package jokesPlugin;
 
 import jokesPlugin.commands.JokeCommand;
+import jokesPlugin.completers.JokeCompleter;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
@@ -17,6 +18,9 @@ public final class JokesPlugin extends JavaPlugin {
 
         // Commands
         Objects.requireNonNull(getCommand("joke")).setExecutor(new JokeCommand(this));
+
+        // Completers
+        Objects.requireNonNull(getCommand("joke")).setTabCompleter(new JokeCompleter());
 
     }
 
