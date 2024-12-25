@@ -1,8 +1,16 @@
 name: JokesPlugin
 version: '1.0'
 main: jokesPlugin.JokesPlugin
-api-version: '1.21'
+api-version: 1.13
+author: Alexander Yermolenko / yermolenko
+website-spigotmc: https://www.spigotmc.org/members/yermolenko.2186874/
+website-github: https://github.com/alexander-yermolenko
+website-linkedin: https://www.linkedin.com/in/alexander-yermolenko-0416542a3/
+website-funpay: https://funpay.com/en/users/8648279/
 commands:
   joke:
     description: Tells a random joke or adds a new joke.
-    usage: "/joke [add <joke>]"
+    usage: "Usage: /joke [add <joke>]"
+permissions:
+  jokesPlugin.commands.add:
+    description: Allows players to add jokes using /joke add
